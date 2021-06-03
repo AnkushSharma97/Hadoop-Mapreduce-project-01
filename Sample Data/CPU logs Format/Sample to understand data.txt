@@ -1,0 +1,2 @@
+hostname date-time CPU %user %nice %system %iowait %steal %idle
+hdtr001 240613,20:44 Average: all 4.05 0.00 10.17 0.02 0.00 85.76

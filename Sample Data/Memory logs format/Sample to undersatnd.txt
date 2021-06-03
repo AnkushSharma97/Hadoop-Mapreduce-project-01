@@ -1,0 +1,2 @@
+hostname date-time kbmemfree kbmemused %memused kbbuffers kbcached kbcommit %commit kbactive kbinact 
+hdtr001 240613,20:50 Average: 473633 319179 40.26 77812 63504 936325 71.31 208009 63161
