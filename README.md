@@ -31,7 +31,7 @@ c) Alternatively I can provide the data in the below link which we can use for o
 
 #### 5) Once the logs are generated , for analysing tem we need to send them to Hadoop-HDFS. We will use the following commands for the same :-
 #### For Cpu Logs:-
-  hadoop fs -put cpu_logs sarlogs/cpu-logs
+    hadoop fs -put cpu_logs sarlogs/cpu-logs
   
 #### For Memory logs:-
   hadoop fs -put mem_logs sarlogs/memory-logs
