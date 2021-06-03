@@ -41,7 +41,7 @@ c) Alternatively I can provide the data in the below link which we can use for o
  
  #### 6) Once the files are saved on HDFS now we need to write Mapreduce Code  to process the files. The code needs to be written separately for all three different types of logs(i.e CPU, Memory and disk logs)
  
- ####7) code for CPU logs:-
+ #### 7) code for CPU logs:-
  
  
  #### 8) code for Memory logs:-
