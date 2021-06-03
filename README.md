@@ -31,7 +31,7 @@ b) Above written scripts will generate Utilisation reports for only one interval
 
 c) Alternatively I can provide the data in the below link which we can use for our Learning and developmen purpose:-
 
-    [Sample Data](https://github.com/AnkushSharma97/Hadoop-Mapreduce-project-01/tree/main/Sample%20Data)
+   [Sample Data](https://github.com/AnkushSharma97/Hadoop-Mapreduce-project-01/tree/main/Sample%20Data)
 
 #### 5) Once the logs are generated , for analysing tem we need to send them to Hadoop-HDFS. We will use the following commands for the same :-
 #### For Cpu Logs:-
