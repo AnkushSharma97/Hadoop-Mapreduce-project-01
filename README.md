@@ -29,7 +29,8 @@ a) I have saved the logs in the directory which is suitable to me you can save i
 
 b) Above written scripts will generate Utilisation reports for only one interval which is defined there in the scripts in point 2 and 3. But we need logs for the complete life cycle of the cluster. For that purpose , we can schedule the above written scripts so that they will run continuously.
 
-c) Alternatively I can provide the data in the below link which we can use for our Learning and developmen purpose.
+c) Alternatively I can provide the data in the below link which we can use for our Learning and developmen purpose:-
+    [Sample Data](https://github.com/AnkushSharma97/Hadoop-Mapreduce-project-01/tree/main/Sample%20Data)
 
 #### 5) Once the logs are generated , for analysing tem we need to send them to Hadoop-HDFS. We will use the following commands for the same :-
 #### For Cpu Logs:-
