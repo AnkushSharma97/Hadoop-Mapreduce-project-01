@@ -16,14 +16,27 @@ To generate every Node's Utilisation report on the fly in a cluster to know whic
       sudo apt-get install sysstat
        
   #### 2) Generating logs for CPU utilization :- 
-      echo "`hostname` `date +%d-%m-%y,%H:%M` ` sar 1 59 |tail -1 `" >> /home/hadoop/sar/logs/`date+%m-%y`-cpu-sar.txt
+      echo "`hostname` `date +%d-%m-%y,%H:%M` ` sar 1 59 |tail -1 `" >> cpu_logs
    
   #### 3) Generating logs for Memory utilization :-
-      echo "`hostname` `date +%d%m%y,%H:%M` ` sar -r 1 59 |tail -1 `" >> /home/hadoop/sar/logs/`date+%m-%y`-memory-sar.txt
+      echo "`hostname` `date +%d%m%y,%H:%M` ` sar -r 1 59 |tail -1 `" >> mem_logs
       
   #### 4) Generating logs for Disk utilization:-
-      echo "`hostname` `date +%d%m%y,%H:%M` `df -h |head -3|tail -1 `" >> /home/hadoop/sar/logs/`date+%m-%y`-disk-sar.txt
+      echo "`hostname` `date +%d%m%y,%H:%M` `df -h |head -2|tail -1 `" >> disk_logs
      
 ### Note:- 
-I have saved the logs in the directory which is suitable to me you can save it in any directory and with any name as per you convenience and permission rights.
+a) I have saved the logs in the directory which is suitable to me you can save it in any directory and with any name as per you convenience and permission rights.
+b) Above written scripts will generate Utilisation reports for only one interval which is defined there in the scripts in point 2 and 3. But we need logs for the complete life cycle of the cluster. For that purpose , we can schedule the above written scripts so that they will run continuously.
+c) Alternatively I can provide the data in the below link which we can use for our Learning and developmen purpose.
+
+#### 5) Once the logs are generated , for analysing tem we need to send them to Hadoop-HDFS. We will use the following commands for the same :-
+#### For Cpu Logs:-
+  hadoop fs -put cpu_logs sarlogs/cpu-logs
+  
+#### For Memory logs:-
+  hadoop fs -put mem_logs sarlogs/memory-logs
+
+#### For Disk logs:-
+  hadoop fs -put disk_logs sarlogs/disk-logs
+  
 
