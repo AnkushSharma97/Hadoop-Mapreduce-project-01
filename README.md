@@ -11,17 +11,17 @@ To generate every Node's Utilisation report on the fly in a cluster to know whic
   2) Node/Sytem's Memory Utilization.
   3) Node/System's Disk space Utilization.
  
-## Steps:-
-  #### 1) First of all we need to generate logs for CPU, Memory and disk Utilization. And for that we need a command installed on our Linux system which is given below:-
+## Steps:- 
+1) First of all we need to generate logs for CPU, Memory and disk Utilization. And for that we need a command installed on our Linux system which is given below:-
       sudo apt-get install sysstat
        
-  #### 2) Generating logs for CPU utilization :- 
+2) Generating logs for CPU utilization :- 
       echo "`hostname` `date +%d-%m-%y,%H:%M` ` sar 1 59 |tail -1 `" >> cpu_logs
    
-  #### 3) Generating logs for Memory utilization :-
+3) Generating logs for Memory utilization :-
       echo "`hostname` `date +%d%m%y,%H:%M` ` sar -r 1 59 |tail -1 `" >> mem_logs
       
-  #### 4) Generating logs for Disk utilization:-
+4) Generating logs for Disk utilization:-
       echo "`hostname` `date +%d%m%y,%H:%M` `df -h |head -2|tail -1 `" >> disk_logs
      
 ### Note:- 
@@ -33,8 +33,8 @@ c) Alternatively I can provide the data in the below link which we can use for o
 
    [Sample Data](https://github.com/AnkushSharma97/Hadoop-Mapreduce-project-01/tree/main/Sample%20Data)
 
-#### 5) Once the logs are generated , for analysing tem we need to send them to Hadoop-HDFS. We will use the following commands for the same :-
-#### For Cpu Logs:-
+5) Once the logs are generated , for analysing them we need to send them to Hadoop-HDFS. We will use the following commands for the same :-
+####### For Cpu Logs:-
     hadoop fs -put cpu_logs sarlogs/cpu-logs
   
 #### For Memory logs:-
