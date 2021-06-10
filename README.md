@@ -1,4 +1,4 @@
-                                                                        # SAR # LOG # ANALYSIS
+#                                                                                 SAR LOG ANALYSIS
 ## Introduction:-
 This is a System Activity Report (SAR) generator project which will generate  reports regarding health of various nodes in a Cluster(Hadoop cluster, Cloud cluster , Greenplum cluster etc).
 Here we are going to use SAR logs to do our analysis. So we must have an idea about what is Sar logs !!
