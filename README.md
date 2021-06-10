@@ -62,7 +62,6 @@ c) Alternatively I can provide the data in the below link which we can use for o
    ## Future Scope:-
    As we can see here we have just found utilization reports of all the nodes in a cluster based on different factors like CPU , Disk, Memory Utilization etc. So as a future        scope we can enhance our code so that we will directly get the Node name which is least Utilized instead of getting report of all the nodes in a cluster. So we can directly      assign new work to it.
    
-                                                                                  # THANK # YOU
 
  
  
