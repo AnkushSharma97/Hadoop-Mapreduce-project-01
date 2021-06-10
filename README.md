@@ -46,8 +46,8 @@ c) Alternatively I can provide the data in the below link which we can use for o
 ###### 6) Once the files are saved on HDFS now we need to write Mapreduce Code  to process the files. The code needs to be written separately for all three different types of logs(i.e CPU, Memory and disk logs)
  
 ###### 7) Mapreduce code for CPU logs:-
-          7.1) [CPU utilization code](https://github.com/AnkushSharma97/Hadoop-Mapreduce-project-01/tree/main/02%20CPU%20Utilisation%20Analysis%20Code/Sar_CPU_Log%20Analysis)
-          7.2) [Sample Input and Output after running the code](https://github.com/AnkushSharma97/Hadoop-Mapreduce-project-01/tree/main/01%20Sample%20Input%20and%20Output%20Pics/CPU%20Utilization%20Input%20and%20Output%20Pics)
+   7.1) [CPU utilization code] (https://github.com/AnkushSharma97/Hadoop-Mapreduce-project-01/tree/main/02%20CPU%20Utilisation%20Analysis%20Code/Sar_CPU_Log%20Analysis)
+   7.2) [Sample Input and Output after running the code](https://github.com/AnkushSharma97/Hadoop-Mapreduce-project-01/tree/main/01%20Sample%20Input%20and%20Output%20Pics/CPU%20Utilization%20Input%20and%20Output%20Pics)
  
 ###### 8) Mapreduce code for Memory logs:-
           [Memory utilization code](https://github.com/AnkushSharma97/Hadoop-Mapreduce-project-01/tree/main/03%20Memory%20Utilisation%20Analysis%20Code/Sar_Mem_log_analysis)
